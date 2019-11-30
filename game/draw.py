@@ -1,7 +1,7 @@
 """
 Draws the board on the screen
 """
-from board import chess_board
+from .board import chess_board
 
 def draw(new_board):
     if not isinstance(new_board, chess_board):
