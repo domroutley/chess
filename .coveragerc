@@ -1,0 +1,14 @@
+[run]
+branch = True
+omit =
+    **__init__.py
+    .venv/**
+    tests/**
+
+source = .
+
+[report]
+omit =
+    **__init__.py
+    .venv/**
+    tests/**

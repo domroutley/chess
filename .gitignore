@@ -1,0 +1,10 @@
+# Virtual environments
+.venv
+
+# Python
+**/__pycache__
+**.pyc
+
+# CICD
+.coverage
+htmlcov/**
