@@ -8,3 +8,6 @@
 # CICD
 .coverage
 htmlcov/**
+
+# Testing file
+.test.py
