@@ -23,3 +23,11 @@ coverage html
 ```
 coverage run and report are bundled in the test script in scripts/test  
 Run it with `scripts/test`
+
+### Manual Testing
+Create a file called `.test.py` in the root of the repository. You can then import and test stuff manually.  
+```python
+## .test.py
+import game
+print(game.board.chess_board())
+```

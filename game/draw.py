@@ -1,9 +1,10 @@
 """
 Draws the board on the screen
 """
-from .board import chess_board
+from . import board
 
 
 def draw(new_board):
-    if not isinstance(new_board, chess_board):
-        raise TypeError("Expected {} object, got {} object".format(chess_board, type(new_board)))
+    if not isinstance(new_board, board.chess_board):
+        raise TypeError("Expected {} object, got {} object".format(board.chess_board,
+                                                                   type(new_board)))
