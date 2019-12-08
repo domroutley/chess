@@ -26,7 +26,6 @@ Run it with `scripts/test`
 
 ### Manual Testing
 Create a file called `.test.py` in the root of the repository. You can then import and test stuff manually.  
-e.g...
 ```python
 ## .test.py
 import game
